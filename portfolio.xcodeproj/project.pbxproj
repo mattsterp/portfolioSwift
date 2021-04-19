@@ -11,6 +11,7 @@
 		937C5EB7262CBEDD00FD94FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937C5EB6262CBEDD00FD94FE /* ContentView.swift */; };
 		937C5EB9262CBEDD00FD94FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937C5EB8262CBEDD00FD94FE /* Assets.xcassets */; };
 		937C5EBC262CBEDD00FD94FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937C5EBB262CBEDD00FD94FE /* Preview Assets.xcassets */; };
+		9393E188262DE0CA002C16C1 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9393E186262DE0CA002C16C1 /* Main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		937C5EB8262CBEDD00FD94FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937C5EBB262CBEDD00FD94FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		937C5EBD262CBEDD00FD94FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9393E187262DE0CA002C16C1 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				937C5EB4262CBEDD00FD94FE /* portfolioApp.swift */,
 				937C5EB6262CBEDD00FD94FE /* ContentView.swift */,
+				9393E186262DE0CA002C16C1 /* Main.xcdatamodeld */,
 				937C5EB8262CBEDD00FD94FE /* Assets.xcassets */,
 				937C5EBD262CBEDD00FD94FE /* Info.plist */,
 				937C5EBA262CBEDD00FD94FE /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9393E188262DE0CA002C16C1 /* Main.xcdatamodeld in Sources */,
 				937C5EB7262CBEDD00FD94FE /* ContentView.swift in Sources */,
 				937C5EB5262CBEDD00FD94FE /* portfolioApp.swift in Sources */,
 			);
@@ -328,6 +332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9393E186262DE0CA002C16C1 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9393E187262DE0CA002C16C1 /* Main.xcdatamodel */,
+			);
+			currentVersion = 9393E187262DE0CA002C16C1 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 937C5EA9262CBEDD00FD94FE /* Project object */;
 }
